@@ -1,0 +1,15 @@
+.app-shell{display:grid;grid-template-columns:var(--sidebar) minmax(0,1fr);min-height:100vh}
+.sidebar{position:fixed;inset:0 auto 0 0;width:var(--sidebar);background:#11182a;color:#dce4f5;padding:20px 14px;overflow:auto;z-index:40}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;padding:4px 10px 18px}
+.brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#817bff,#4b42df)}
+.nav-group{margin:8px 0 18px}
+.nav-label{padding:6px 12px;color:#8290a9;text-transform:uppercase;font-size:.68rem;letter-spacing:.12em}
+.nav-link{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:9px;margin:2px 0;color:#aebbd1;font-size:.88rem}
+.nav-link:hover,.nav-link.active{background:#242e46;color:#fff}
+.main{grid-column:2;min-width:0}
+.header{height:68px;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 26px;position:sticky;top:0;z-index:30}
+.header-actions{display:flex;align-items:center;gap:10px}
+.content{padding:26px;max-width:1700px;margin:auto}
+.page-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:22px}
+.header .mobile-menu{display:none}
+.overlay{display:none}
