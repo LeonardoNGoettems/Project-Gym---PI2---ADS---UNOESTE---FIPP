@@ -1,82 +1,144 @@
-# Academic Website Project
+# Project Gym — Projeto Integrado II
 
-## About the Project
+Repositório desenvolvido para a disciplina de **Projeto Integrado II (PI2)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)** da **FIPP – Unoeste**.
 
-This project was developed as part of a college/university assignment focused on web development and user interface design.
-
-The website was created using a **free Bootstrap-based website template** obtained from a third party. The original template was used as a foundation for the academic project and was adapted and customized according to the requirements of the assignment.
-
-This project is intended **exclusively for educational and academic purposes**. It is not intended for commercial use, sales, advertising, or any other profit-making activity.
-
-## Purpose
-
-The main purpose of this project is to demonstrate the practical application of concepts learned throughout the course, including:
-
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* Responsive Web Design
-* User Interface Design
-* Website Structure and Navigation
-
-The project also allowed us to practice modifying and adapting an existing website template to meet specific academic requirements.
-
-## Template and Third-Party Resources
-
-The website is based on a **free template originally created and published by a third party**.
-
-We do not claim ownership of the original template, its design, or any third-party resources included in it. The template was obtained for free and is being used solely as a foundation for this academic project.
-
-Any original copyrights, licenses, credits, trademarks, images, or other intellectual property belonging to their respective owners remain with their original creators.
-
-If applicable, the original template and its author should be credited according to the license and terms under which the template was distributed.
-
-## Academic Use Only
-
-This project is a **non-commercial academic work** created for college coursework.
-
-It is not being developed, distributed, or presented with the intention of generating revenue or financial profit.
-
-The project should be understood as an educational exercise demonstrating the use of web technologies and the customization of an existing free template.
-
-## Modifications
-
-The original template was adapted and modified for the purposes of this academic assignment. Changes may include, but are not limited to:
-
-* Content and text
-* Website structure
-* Layout
-* Styling
-* Colors
-* Components
-* Navigation
-* Forms
-* Interactive elements
-* Bootstrap components
-* JavaScript functionality
-
-These modifications were made specifically to fulfill the requirements of the academic project.
-
-## Credits
-
-Special credit is given to the original creator(s) of the free template used as the foundation of this project.
-
-**Original Template:** [Insert Template Name]
-**Original Author/Creator:** [Insert Author Name]
-**Source:** [Insert Original Template URL]
-**License:** [Insert License, if available]
-
-All rights to the original template and third-party materials belong to their respective owners.
-
-## Disclaimer
-
-This repository is provided for **educational purposes only**.
-
-We do not claim ownership of third-party materials included in the original template. If any material requires attribution or is not permitted under its original license, please refer to the original creator's licensing terms.
-
-This project should not be considered an original commercial product or a claim of ownership over the original template.
+O projeto tem como objetivo aplicar, de forma prática, conhecimentos adquiridos durante o curso no desenvolvimento de um sistema voltado ao gerenciamento de uma academia.
 
 ---
 
-**Academic Project — Developed for educational purposes only.**
+## Sobre o Projeto
+
+O repositório é composto por diferentes partes do projeto acadêmico, envolvendo tanto o desenvolvimento de uma **interface web para uma academia** quanto a implementação de um **sistema de cadastro utilizando linguagem baseada em C**.
+
+A proposta é demonstrar a aplicação prática de conceitos de programação, desenvolvimento web, organização de projetos e construção de sistemas.
+
+Este projeto foi desenvolvido **exclusivamente para fins acadêmicos e educacionais**, sem finalidade comercial ou intenção de geração de lucro.
+
+---
+
+## Estrutura do Repositório
+
+```text
+Project-Gym---PI2---ADS---UNOESTE---FIPP/
+│
+├── PI2/
+│   └── Apex/
+│       └── Projeto Web — Apex Fitness
+│
+├── PJ-DevC++-PI2/
+│   └── Sistema de Academia em C/C++
+│
+└── README.md
+```
+
+### `PI2/Apex`
+
+Nesta pasta está o projeto web **Apex Fitness**, desenvolvido como parte da proposta de criação de uma interface para uma academia.
+
+O projeto utiliza tecnologias como:
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* Design responsivo
+* Componentes e recursos de interface
+
+O site foi desenvolvido a partir da adaptação e personalização de um **template gratuito de terceiros**, utilizado como base para o desenvolvimento do trabalho acadêmico.
+
+Foram realizadas modificações no conteúdo, estrutura, layout, cores, componentes, navegação e demais elementos necessários para adequar o template aos requisitos definidos para o projeto.
+
+### `PJ-DevC++-PI2`
+
+Nesta pasta está o projeto de desenvolvimento de um **sistema de academia utilizando linguagem baseada em C**.
+
+O sistema possui funcionalidades voltadas ao gerenciamento de alunos, incluindo:
+
+* Cadastro de alunos;
+* Exclusão de registros;
+* Busca de alunos;
+* Manipulação de dados;
+* Estruturas de programação;
+* Lógica de programação.
+
+O objetivo desta parte do projeto é aplicar conceitos fundamentais de programação e desenvolvimento de sistemas estudados durante o curso.
+
+---
+
+## Objetivos
+
+O projeto busca desenvolver e demonstrar conhecimentos relacionados a:
+
+* Lógica de programação;
+* Estruturas condicionais e de repetição;
+* Funções;
+* Manipulação de dados;
+* Desenvolvimento em C/C++;
+* HTML e CSS;
+* Bootstrap;
+* JavaScript;
+* Desenvolvimento de interfaces;
+* Organização de projetos;
+* Desenvolvimento de sistemas;
+* Trabalho acadêmico integrado.
+
+---
+
+## Contexto Acadêmico
+
+**Curso:** Análise e Desenvolvimento de Sistemas — ADS
+**Instituição:** FIPP – Unoeste
+**Disciplina:** Projeto Integrado II — PI2
+**Finalidade:** Projeto acadêmico
+
+Este repositório foi criado para documentar e armazenar os materiais e códigos desenvolvidos durante a disciplina.
+
+---
+
+## Uso de Template de Terceiros
+
+A parte web do projeto utiliza como base um **template gratuito desenvolvido por terceiros**.
+
+O template original não é de propriedade dos desenvolvedores deste projeto. Seu uso ocorre exclusivamente como base para fins educacionais, conforme permitido pelos termos e licença associados ao material original.
+
+As modificações realizadas neste projeto foram desenvolvidas especificamente para atender aos requisitos da atividade acadêmica.
+
+Os direitos autorais, créditos, marcas, imagens, códigos e demais materiais pertencentes aos seus respectivos criadores permanecem com seus proprietários originais.
+
+Quando aplicável, os créditos e a licença do template original devem ser mantidos de acordo com seus respectivos termos de uso.
+
+---
+
+## Finalidade Não Comercial
+
+Este projeto **não possui finalidade comercial**.
+
+O conteúdo deste repositório foi desenvolvido exclusivamente como parte de uma atividade acadêmica e não tem como objetivo:
+
+* Comercialização;
+* Venda do sistema;
+* Geração de receita;
+* Publicidade;
+* Exploração comercial do template utilizado.
+
+---
+
+## Autor
+
+**Leonardo Nogueira Goettems**
+
+Estudante de Análise e Desenvolvimento de Sistemas
+FIPP – Unoeste
+
+---
+
+## Status do Projeto
+
+**Projeto acadêmico em desenvolvimento.**
+
+As funcionalidades e estruturas presentes neste repositório podem sofrer alterações conforme o andamento da disciplina e a evolução do projeto.
+
+---
+
+> **Projeto Integrado II — Análise e Desenvolvimento de Sistemas**
+> **FIPP – Unoeste**
